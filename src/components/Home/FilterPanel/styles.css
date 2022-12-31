@@ -1,0 +1,17 @@
+.label {
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+.input-group {
+  margin-bottom: 2rem;
+}
+.label-range {
+  margin-bottom: 2.5rem;
+}
+element.style {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 3px;
+  background: grey;
+}

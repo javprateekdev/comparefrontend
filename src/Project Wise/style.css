@@ -1,0 +1,197 @@
+
+
+
+.form-control{
+  margin: 10px;
+  display: block;
+  width: 25%;
+  height: 50px;
+}
+.container{
+  
+  justify-content:space-between;
+}
+.btn{
+  margin: 10px;
+  display: block;
+  width: 25%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#f7f8fa;
+}
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 0px !important;
+  -webkit-border-horizontal-spacing: ;
+  -webkit-border-vertical-spacing: ;
+}
+
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+
+.container th h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.container td {
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+.container {
+  text-align: left;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  display: table;
+  padding: 0 0 0 0;
+}
+
+.container td, .container th {
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-left:1%;
+  width:250px ;
+  text-align:left  ;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.container th {
+    background-color: #1F2739;
+}
+
+.container td:first-child { 
+  color: #FB667A;
+  text-align:left !important;
+ }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+     -moz-box-shadow: 0 6px 6px -6px #0E1119;
+          box-shadow: 0 6px 6px -6px #0E1119;
+ 
+}
+
+.container td:hover {
+  background-color: #edece5;
+  color: #403E10;
+  font-weight: bold;
+  transform: translate3d(1px, -1px, 0);
+  transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+  transition-timing-function: line;
+  border:3px solid rgb(182, 115, 14)
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  min-width: 64px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border: 1px solid #edc40cdb!important;
+  color:#edc40cdb!important;
+}
+.css-11yukd5-MuiTabs-indicator {
+  position: absolute;
+  height: 15px !important;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #9c27b0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0em !important;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.Button{
+  height:40px;
+  background:#3a3a3a;
+  color:white;
+  font-Weight:600;
+  margin-Top:8px;
+  border-radius:10px;
+  border:none !important;
+  width: 120px;
+  margin-right:35px;
+}
+.Button:hover {
+  background-color:#f07808;
+  transition: 0.7s;
+  border-radius:10px;
+  border:none !important;
+}
